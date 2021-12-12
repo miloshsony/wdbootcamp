@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: inline-block;
+}
+
+html {
+    scroll-padding-top:3rem ;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-size: 2rem;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'nunito', sans-serif;
+}
+
+.navbar-brand span{
+    font-family: 'Audiowide', 'poppins', sans-serif;
+    color: rgb(96, 152, 255);
+}
+
+.banner p span {
+    font-family: 'Audiowide';
+}
+
+.banner {
+    height:90vh;
+}
+
+.about-image {
+    width: 85%;
+}
+
+.social-media i {
+    font-size: 2rem;
+    margin: 0 1rem;
+    color: #222;
+}
+
+@media (max-width: 486px) {
+    .social-media i {
+        margin: 0 .5rem;
+        font-size: 1.5rem;
+    }
+}
